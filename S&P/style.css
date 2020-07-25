@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+.fascia {
+    cursor: pointer;
+}
+
+.questions {
+    padding: 20px;
+    font-size: larger;
+}
+
+.questions:hover {
+    color: chocolate;
+}
+
+.answer {
+    font-size: large;
+}
+
+.arrow {
+    height: 15px;
+    width: 15px;
+}
+
+.collapse {
+    display: none;
+}
+
+.gsus {
+    height: 200px;
+    width: 200px;
+}
+
+img {
+    position: relative;
+}
+
+button:hover {
+    background-color: chocolate;
+}
