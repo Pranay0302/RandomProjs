@@ -1,0 +1,58 @@
+body {
+    background-color: beige;
+    table-layout: fixed;
+    cursor: cell;
+}
+
+h1,
+h5 {
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+[id*="square-"] {
+    background-color: burlywood;
+    padding: 2px;
+    box-shadow: 0 2px 4px 0 rgba(32, 32, 39, 0.2)
+}
+
+[id*="square-"]:hover {
+    background-color: rgb(180, 137, 81);
+    opacity: 0.5;
+}
+
+
+/* grid system */
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* media queries */
+
+
+/* mobile devices */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* desktop size */
+
+@media only screen and (min-width: 768px) {
+    .random {
+        flex: 0 0 20%;
+        padding: 10px;
+        /* background-color: antiquewhite; */
+    }
+}
